@@ -12,7 +12,7 @@
 'use strict';
 
 var ReactDOMFeatureFlags = {
-  useCreateElement: true,
+  useCreateElement: false,
 };
 
 module.exports = ReactDOMFeatureFlags;

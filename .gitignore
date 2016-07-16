@@ -6,7 +6,12 @@ static
 .grunt
 _SpecRunner.html
 __benchmarks__
-build/
+!build/
+build/*
+!build/packages
+build/packages/*
+!build/packages/react.tgz
+!build/packages/react-dom.tgz
 coverage/
 .module-cache
 *.gem
